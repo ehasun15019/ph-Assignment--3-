@@ -27,3 +27,17 @@ for (var days = 1; days <= lastDay; days++) {
     console.log(days + "- rest");
   }
 }
+
+/** Problem 04 - (Delete / Store) */
+var fileName = "docx.xpdf";
+//write your code here
+
+if (fileName.startsWith("#")) {
+  console.log("Store");
+} else if (fileName.endsWith(".pdf")) {
+  console.log("Store");
+} else if (fileName.endsWith(".docx")) {
+  console.log("Store");
+} else {
+  console.log("Delete");
+}
